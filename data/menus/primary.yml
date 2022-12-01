@@ -11,6 +11,10 @@
     target: "/recherche/ecrits/"
     kind: page
     children: []
+  - title: Publications
+    target: "/recherche/publications/"
+    kind: page
+    children: []
 - title: Enseignements
   target: "/enseignement/"
   kind: page
