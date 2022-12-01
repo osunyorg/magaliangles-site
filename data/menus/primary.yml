@@ -15,7 +15,7 @@
     target: "/recherche/publications/"
     kind: page
     children: []
-  - title: Interventions
+  - title: Participations
     target: "/recherche/participations/"
     kind: page
     children: []
