@@ -11,4 +11,8 @@
   target: "/recherche/"
   kind: page
   children: []
+- title: Enseignements
+  target: "/enseignement/"
+  kind: page
+  children: []
 
