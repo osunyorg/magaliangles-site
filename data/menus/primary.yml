@@ -6,7 +6,11 @@
 - title: Recherche
   target: "/recherche/"
   kind: page
-  children: []
+  children:
+  - title: Écrits
+    target: "/recherche/ecrits/"
+    kind: page
+    children: []
 - title: Enseignements
   target: "/enseignement/"
   kind: page
