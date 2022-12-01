@@ -7,4 +7,8 @@
   target: "/contact/"
   kind: page
   children: []
+- title: Recherche
+  target: "/recherche/"
+  kind: page
+  children: []
 
