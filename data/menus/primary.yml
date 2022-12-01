@@ -3,16 +3,16 @@
   target: "/a-propos/"
   kind: page
   children: []
-- title: Contact
-  target: "/contact/"
-  kind: page
-  children: []
 - title: Recherche
   target: "/recherche/"
   kind: page
   children: []
 - title: Enseignements
   target: "/enseignement/"
+  kind: page
+  children: []
+- title: Contact
+  target: "/contact/"
   kind: page
   children: []
 
