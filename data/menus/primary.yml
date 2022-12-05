@@ -19,12 +19,12 @@
   target: "/enseignement/"
   kind: page
   children: []
-- title: Contact
-  target: "/contact/"
-  kind: page
-  children: []
 - title: Ressources
   target: "/ressources/"
+  kind: page
+  children: []
+- title: Contact
+  target: "/contact/"
   kind: page
   children: []
 
