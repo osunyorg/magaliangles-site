@@ -15,6 +15,10 @@
     target: "/recherche/participations/"
     kind: page
     children: []
+  - title: Groupes de Travail
+    target: "/recherche/groupes-de-travail/"
+    kind: page
+    children: []
 - title: Enseignements
   target: "/enseignement/"
   kind: page
