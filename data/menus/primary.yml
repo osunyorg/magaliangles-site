@@ -7,6 +7,10 @@
   target: "/recherche/"
   kind: page
   children:
+  - title: Sujet de recherche
+    target: "/recherche/sujet-de-recherche/"
+    kind: page
+    children: []
   - title: Écrits
     target: "/recherche/ecrits/"
     kind: page
