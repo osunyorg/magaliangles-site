@@ -19,6 +19,10 @@
     target: "/recherche/groupes-de-travail/"
     kind: page
     children: []
+  - title: Sujet de recherche
+    target: "/recherche/sujet-de-recherche/"
+    kind: page
+    children: []
 - title: Enseignements
   target: "/enseignement/"
   kind: page
