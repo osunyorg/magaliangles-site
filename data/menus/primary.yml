@@ -11,10 +11,6 @@
     target: "/recherche/sujet-de-recherche/"
     kind: page
     children: []
-  - title: Écrits
-    target: "/recherche/ecrits/"
-    kind: page
-    children: []
   - title: Participations
     target: "/recherche/participations/"
     kind: page
