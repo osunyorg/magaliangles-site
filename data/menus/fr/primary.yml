@@ -21,6 +21,10 @@ items:
     target: "/recherche/groupes-de-travail/"
     kind: page
     children: []
+  - title: Évènements
+    target: "/recherche/evenements/"
+    kind: page
+    children: []
 - title: Enseignements
   target: "/enseignement/"
   kind: page
