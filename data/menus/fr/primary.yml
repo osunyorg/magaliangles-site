@@ -17,8 +17,8 @@ items:
     target: "/recherche/communications/"
     kind: page
     children: []
-  - title: Participations
-    target: "/recherche/participations/"
+  - title: Initiatives doctorantes
+    target: "/recherche/initiatives-doctorantes/"
     kind: page
     children: []
   - title: Groupes de Travail
