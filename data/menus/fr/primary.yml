@@ -29,6 +29,10 @@ items:
     target: "/recherche/manifestations/"
     kind: page
     children: []
+  - title: Projets
+    target: "/recherche/projets/"
+    kind: page
+    children: []
 - title: Enseignements
   target: "/enseignement/"
   kind: page
