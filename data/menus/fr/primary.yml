@@ -13,6 +13,10 @@ items:
     target: "/recherche/sujet-de-recherche/"
     kind: page
     children: []
+  - title: Publications
+    target: "/recherche/communications/"
+    kind: page
+    children: []
   - title: Participations
     target: "/recherche/participations/"
     kind: page
@@ -22,7 +26,7 @@ items:
     kind: page
     children: []
   - title: Évènements
-    target: "/recherche/evenements/"
+    target: "/recherche/manifestations/"
     kind: page
     children: []
 - title: Enseignements
