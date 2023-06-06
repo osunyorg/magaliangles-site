@@ -25,7 +25,7 @@ items:
     target: "/recherche/groupes-de-travail/"
     kind: page
     children: []
-  - title: Évènements
+  - title: Manifestations
     target: "/recherche/manifestations/"
     kind: page
     children: []
