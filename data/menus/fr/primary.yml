@@ -13,7 +13,7 @@ items:
     target: "/recherche/sujet-de-recherche/"
     kind: page
     children: []
-  - title: Publications
+  - title: Communications
     target: "/recherche/communications/"
     kind: page
     children: []
