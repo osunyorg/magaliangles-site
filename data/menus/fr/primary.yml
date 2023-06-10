@@ -21,12 +21,12 @@ items:
     target: "/recherche/groupes-de-travail/"
     kind: page
     children: []
-  - title: Manifestations
-    target: "/recherche/manifestations/"
-    kind: page
-    children: []
   - title: Projets
     target: "/recherche/projets/"
+    kind: page
+    children: []
+  - title: Manifestations
+    target: "/recherche/manifestations/"
     kind: page
     children: []
 - title: Enseignements
