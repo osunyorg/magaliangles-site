@@ -1,10 +1,6 @@
 ---
 title: Primary
 items:
-- title: À propos
-  target: "/a-propos/"
-  kind: page
-  children: []
 - title: Recherche
   target: "/recherche/"
   kind: page
@@ -34,11 +30,15 @@ items:
     kind: page
     children: []
 - title: Enseignements
-  target: "/enseignement/"
+  target: "/enseignements/"
   kind: page
   children: []
 - title: Ressources
   target: "/ressources/"
+  kind: page
+  children: []
+- title: À propos
+  target: "/a-propos/"
   kind: page
   children: []
 - title: Contact
