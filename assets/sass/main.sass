@@ -2,3 +2,10 @@
 @import "_fonts"
 @import "_configuration"
 @import "_theme/hugo-osuny"
+
+.page__home
+  .hero
+    margin-bottom: 0
+  .blocks .block:first-child
+    &:not(#{$backgrounded_blocks})
+      margin-top: $spacing3
