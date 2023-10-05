@@ -1,7 +1,8 @@
 ---
-title: >
-  Accueil
+title: "Accueil"
 breadcrumb_title: "Accueil"
+breadcrumbs:
+  - title: "Accueil"
 url: "/"
 
 full_width: true
@@ -18,14 +19,14 @@ translation_key: communication-website-page-2cac57bb-43f7-4c5c-9d74-8a855ecd2698
 bodyclass: 
 
 children:
-  - /a-propos/
-  - /recherche/
-  - /contact/
-  - /enseignements/
-  - /ressources/
-  - /actualites/
-  - /equipe/
-  - /organisations/
+  - "content/fr/pages/a-propos/_index.html"
+  - "content/fr/pages/recherche/_index.html"
+  - "content/fr/pages/contact/_index.html"
+  - "content/fr/pages/enseignements/_index.html"
+  - "content/fr/pages/ressources/_index.html"
+  - "content/fr/posts/_index.html"
+  - "content/fr/persons/_index.html"
+  - "content/fr/organizations/_index.html"
 meta_description: >
   
 description: >
@@ -79,40 +80,18 @@ contents:
       show_images: true
       layout: cards
       pages:
-        - page: "/recherche/"
-          slug: "/recherche/"
-        - page: "/enseignements/"
-          slug: "/enseignements/"
-        - page: "/recherche/manifestations/"
-          slug: "/recherche/manifestations/"
-      elements:
-        - title: >-
-            Recherche
-          summary: >-
-            Présentation du projet de recherche : le sujet, les participations, les groupes de travail et les écrits.
+        - path: "/recherche/"
           slug: "recherche"
-          path: "/recherche/"
-          url: "/recherche/"
-          bodyclass: >-
-            
-        - title: >-
-            Enseignements
-          summary: >-
-            Formatrice auprès de l'Université Bordeaux Montaigne et d'organismes de formations depuis 2013.
+          file: "content/fr/pages/recherche/_index.html"
+          external: false
+        - path: "/enseignements/"
           slug: "enseignements"
-          path: "/enseignements/"
-          url: "/enseignements/"
-          bodyclass: >-
-            
-        - title: >-
-            Manifestations
-          summary: >-
-            Retour sur les conférences, journées d'études, séminaires et colloques.
+          file: "content/fr/pages/enseignements/_index.html"
+          external: false
+        - path: "/recherche/manifestations/"
           slug: "manifestations"
-          path: "/recherche/manifestations/"
-          url: "/recherche/manifestations/"
-          bodyclass: >-
-            
+          file: "content/fr/pages/recherche/manifestations/_index.html"
+          external: false
 
 
   - kind: block
@@ -126,63 +105,22 @@ contents:
       show_images: true
       layout: list
       pages:
-        - page: "/recherche/communications/table-ronde-les-communs-au-service-dun-numerique-plus-ethique-et-soutenable-congres-de-la-sfsic-2023/"
-          slug: "/recherche/communications/table-ronde-les-communs-au-service-dun-numerique-plus-ethique-et-soutenable-congres-de-la-sfsic-2023/"
-        - page: "/recherche/manifestations/rencontre-avec-david-bollier-pour-la-sortie-de-son-ouvrage-en-francais-le-pouvoir-subversif-des-communs-26-mai-2023/"
-          slug: "/recherche/manifestations/rencontre-avec-david-bollier-pour-la-sortie-de-son-ouvrage-en-francais-le-pouvoir-subversif-des-communs-26-mai-2023/"
-        - page: "/recherche/manifestations/retour-sur-la-journee-detude-le-commun-comme-mode-de-production-du-26-mai-2023-au-cis/"
-          slug: "/recherche/manifestations/retour-sur-la-journee-detude-le-commun-comme-mode-de-production-du-26-mai-2023-au-cis/"
-        - page: "/recherche/manifestations/retour-sur-le-colloque-international-gouverner-le-numerique-dans-un-monde-en-transition-rennes-24-25-mai-2023/"
-          slug: "/recherche/manifestations/retour-sur-le-colloque-international-gouverner-le-numerique-dans-un-monde-en-transition-rennes-24-25-mai-2023/"
-      elements:
-        - title: >-
-            Table ronde - Les Communs au service d’un numérique plus éthique et soutenable - Congrès de la SFSIC 2023
-          summary: >-
-            
+        - path: "/recherche/communications/table-ronde-les-communs-au-service-dun-numerique-plus-ethique-et-soutenable-congres-de-la-sfsic-2023/"
           slug: "table-ronde-les-communs-au-service-dun-numerique-plus-ethique-et-soutenable-congres-de-la-sfsic-2023"
-          path: "/recherche/communications/table-ronde-les-communs-au-service-dun-numerique-plus-ethique-et-soutenable-congres-de-la-sfsic-2023/"
-          url: "/recherche/communications/table-ronde-les-communs-au-service-dun-numerique-plus-ethique-et-soutenable-congres-de-la-sfsic-2023/"
-          bodyclass: >-
-            
-        - title: >-
-            Rencontre avec David Bollier pour la sortie de son ouvrage &quot;Le pouvoir subversif des communs&quot; - 26 mai 2023
-          summary: >-
-            
+          file: "content/fr/pages/recherche/communications/table-ronde-les-communs-au-service-dun-numerique-plus-ethique-et-soutenable-congres-de-la-sfsic-2023/_index.html"
+          external: false
+        - path: "/recherche/manifestations/rencontre-avec-david-bollier-pour-la-sortie-de-son-ouvrage-en-francais-le-pouvoir-subversif-des-communs-26-mai-2023/"
           slug: "rencontre-avec-david-bollier-pour-la-sortie-de-son-ouvrage-en-francais-le-pouvoir-subversif-des-communs-26-mai-2023"
-          path: "/recherche/manifestations/rencontre-avec-david-bollier-pour-la-sortie-de-son-ouvrage-en-francais-le-pouvoir-subversif-des-communs-26-mai-2023/"
-          url: "/recherche/manifestations/rencontre-avec-david-bollier-pour-la-sortie-de-son-ouvrage-en-francais-le-pouvoir-subversif-des-communs-26-mai-2023/"
-          bodyclass: >-
-            
-          image:
-            id: "62ad04a1-3d9c-409f-a0a8-2526f2e399bf"
-            alt: >-
-              
-            credit: >-
-              
-        - title: >-
-            Retour sur le séminaire &quot;Le commun comme mode de production&quot; au CIS - 26 mai 2023
-          summary: >-
-            
+          file: "content/fr/pages/recherche/manifestations/rencontre-avec-david-bollier-pour-la-sortie-de-son-ouvrage-en-francais-le-pouvoir-subversif-des-communs-26-mai-2023/_index.html"
+          external: false
+        - path: "/recherche/manifestations/retour-sur-la-journee-detude-le-commun-comme-mode-de-production-du-26-mai-2023-au-cis/"
           slug: "retour-sur-la-journee-detude-le-commun-comme-mode-de-production-du-26-mai-2023-au-cis"
-          path: "/recherche/manifestations/retour-sur-la-journee-detude-le-commun-comme-mode-de-production-du-26-mai-2023-au-cis/"
-          url: "/recherche/manifestations/retour-sur-la-journee-detude-le-commun-comme-mode-de-production-du-26-mai-2023-au-cis/"
-          bodyclass: >-
-            
-          image:
-            id: "18154e9a-06a8-4183-9433-43ab2a01bbab"
-            alt: >-
-              
-            credit: >-
-              
-        - title: >-
-            Retour sur le colloque international “Gouverner le numérique dans un monde en transition” - Rennes 24 &amp; 25 mai 2023
-          summary: >-
-            
+          file: "content/fr/pages/recherche/manifestations/retour-sur-la-journee-detude-le-commun-comme-mode-de-production-du-26-mai-2023-au-cis/_index.html"
+          external: false
+        - path: "/recherche/manifestations/retour-sur-le-colloque-international-gouverner-le-numerique-dans-un-monde-en-transition-rennes-24-25-mai-2023/"
           slug: "retour-sur-le-colloque-international-gouverner-le-numerique-dans-un-monde-en-transition-rennes-24-25-mai-2023"
-          path: "/recherche/manifestations/retour-sur-le-colloque-international-gouverner-le-numerique-dans-un-monde-en-transition-rennes-24-25-mai-2023/"
-          url: "/recherche/manifestations/retour-sur-le-colloque-international-gouverner-le-numerique-dans-un-monde-en-transition-rennes-24-25-mai-2023/"
-          bodyclass: >-
-            
+          file: "content/fr/pages/recherche/manifestations/retour-sur-le-colloque-international-gouverner-le-numerique-dans-un-monde-en-transition-rennes-24-25-mai-2023/_index.html"
+          external: false
 
 
 
