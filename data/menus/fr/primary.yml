@@ -9,51 +9,62 @@ items:
     target: "/recherche/sujet-de-recherche/"
     kind: page
     children: []
+    path: "/pages/recherche/sujet-de-recherche"
     file: content/fr/pages/recherche/sujet-de-recherche/_index.html
   - title: Communications
     target: "/recherche/communications/"
     kind: page
     children: []
+    path: "/pages/recherche/communications"
     file: content/fr/pages/recherche/communications/_index.html
   - title: Initiatives doctorantes
     target: "/recherche/initiatives-doctorantes/"
     kind: page
     children: []
+    path: "/pages/recherche/initiatives-doctorantes"
     file: content/fr/pages/recherche/initiatives-doctorantes/_index.html
   - title: Groupes de Travail
     target: "/recherche/groupes-de-travail/"
     kind: page
     children: []
+    path: "/pages/recherche/groupes-de-travail"
     file: content/fr/pages/recherche/groupes-de-travail/_index.html
   - title: Projets
     target: "/recherche/projets/"
     kind: page
     children: []
+    path: "/pages/recherche/projets"
     file: content/fr/pages/recherche/projets/_index.html
   - title: Manifestations
     target: "/recherche/manifestations/"
     kind: page
     children: []
+    path: "/pages/recherche/manifestations"
     file: content/fr/pages/recherche/manifestations/_index.html
+  path: "/pages/recherche"
   file: content/fr/pages/recherche/_index.html
 - title: Enseignements
   target: "/enseignements/"
   kind: page
   children: []
+  path: "/pages/enseignements"
   file: content/fr/pages/enseignements/_index.html
 - title: Ressources
   target: "/ressources/"
   kind: page
   children: []
+  path: "/pages/ressources"
   file: content/fr/pages/ressources/_index.html
 - title: À propos
   target: "/a-propos/"
   kind: page
   children: []
+  path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Contact
   target: "/contact/"
   kind: page
   children: []
+  path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
 
