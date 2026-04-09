@@ -52,20 +52,10 @@ items:
     descendants_targets: []
     path: "/pages/recherche/projets"
     file: content/fr/pages/recherche/projets/_index.html
-  - title: Manifestations
-    slug: manifestations
-    target: "/recherche/manifestations/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/recherche/manifestations"
-    file: content/fr/pages/recherche/manifestations/_index.html
   descendants_targets:
   - "/recherche/communications/"
   - "/recherche/groupes-de-travail/"
   - "/recherche/initiatives-doctorantes/"
-  - "/recherche/manifestations/"
   - "/recherche/projets/"
   - "/recherche/sujet-de-recherche/"
   path: "/pages/recherche"
